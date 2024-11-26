@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "amocrm"
+version = "0.1.0"
+description = ""
+authors = ["imaanick <nickolaytrusov01@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+amocrm-api = "^2.6.1"
+aiogram = "^3.15.0"
+python-dotenv = "^1.0.1"
+apscheduler = "^3.11.0"
+mypy = "^1.13.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
