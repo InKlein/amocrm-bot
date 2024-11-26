@@ -4,7 +4,7 @@ from aiogram.types import Message
 
 
 async def start_cmd(message: Message) -> None:
-    await message.answer("Hi!")
+    await message.answer("Hi!\nThis bot sends revenue data from amocrm for each manager")
 
 
 def setup_start(dp: Dispatcher) -> None:
